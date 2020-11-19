@@ -7,3 +7,10 @@ SVM
 - scikit-learn으로 모델 구현 가능, 서포트 벡터만 잘 고르면 나머지는 무시 가능 : 속도 빠름
 - 하드마진은 오버피팅 가능
 - 소프트 마진: 너그러운 마진은 언더피팅 (대충 학습하는 것이라)
+
+
+GMM
+- 말그대로 Gaussian 분포가 여러개 혼합된 알고리즘
+- k 는 직접 설정함
+- GMM을 이용해 classification x가 있을 때, k개의 znk를 계산해서 가장 높은 Gaussian distribution을 선택하는 것
+# https://scikit-learn.org/stable/modules/mixture.html
