@@ -9,8 +9,24 @@ SVM
 - 소프트 마진: 너그러운 마진은 언더피팅 (대충 학습하는 것이라)
 
 
+ML
+- supervised, unsupervised, reinforcement learning
+- unsupervised는 tag가 없음, we don't know the true value
+- clustering model은 겹치는걸 제대로 맞추는건 어렵
+
+K-means <-> KNN
+- 군집 찾기: 1.centroid에 대해서 2. 가까이 있는 centroid에 assign <-> supervised learning: k개의 neighbor를 찾음
+
+Expectation and Maximization (EM 알고리즘)
+- E와 M을 번갈아가면서 바복
+- rnk를 maximize해줘야, centroid도 optimize
+
+
+
+
 GMM
+# https://scikit-learn.org/stable/modules/mixture.html
 - 말그대로 Gaussian 분포가 여러개 혼합된 알고리즘
 - k 는 직접 설정함
 - GMM을 이용해 classification x가 있을 때, k개의 znk를 계산해서 가장 높은 Gaussian distribution을 선택하는 것
-# https://scikit-learn.org/stable/modules/mixture.html
+- 
