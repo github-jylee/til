@@ -7,6 +7,14 @@ SVM
 - scikit-learn으로 모델 구현 가능, 서포트 벡터만 잘 고르면 나머지는 무시 가능 : 속도 빠름
 - 하드마진은 오버피팅 가능
 - 소프트 마진: 너그러운 마진은 언더피팅 (대충 학습하는 것이라)
+pro: good accuracy, efficient because subset of training points used
+optimization is very good due to convex nature of optimization function
+can use for both linear(hard) and non linear(soft)
+
+cons: works very on clean and small dataset
+SVM less efficient on noisy datasets in which classes overlapped with each other
+dont really provide probability estimates
+
 
 
 ML
