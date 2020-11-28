@@ -24,6 +24,7 @@ ML
 
 K-means <-> KNN
 - 군집 찾기: 1.centroid에 대해서 2. 가까이 있는 centroid에 assign <-> supervised learning: k개의 neighbor를 찾음
+- elbow method를 통해 k를 1개부터 늘려가면서 cost 비교, 적절한 K 선택 가능
 
 Expectation and Maximization (EM 알고리즘)
 - E와 M을 번갈아가면서 바복
