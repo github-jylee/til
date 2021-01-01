@@ -1,4 +1,5 @@
-github뭔지 배우기\
-백준 풀기\
-
-다음: 폴더 삭제
+#A+B
+cases = int(input())
+for i in range(cases):
+  a,b = map(int, input().split())
+  print(a+b)
